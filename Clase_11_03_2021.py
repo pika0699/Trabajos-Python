@@ -24,6 +24,7 @@ display(pd.concat([iris_df.head(3),
 sns.pairplot(iris_df, hue = 'target', height=1.5)
 print('targets: {}'.format(iris.target_names), iris.target_names[1], sep='\n')
 
+sns.displot(iris_df)
 
 
 
